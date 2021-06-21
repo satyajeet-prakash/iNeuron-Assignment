@@ -1,0 +1,31 @@
+1.	Values - 'hello', -87.8, 6
+   	Expressions - *
+   
+2. 	Variables stores any data in a memory loction whereas String is a data-type.
+   	We can store String in a variable but not vice-versa.
+   	We can not use numbers, special characters to define variable whereas in String we can use numbers, special characters, etc
+  
+3. 	Boolean - Boolean data type  consists two built-in values: True or False. In mathematical terms, True = 1 and False = 0.
+
+	String - A String is a collection of one or more characters put in a single quotes or double quotes. It is represent by str class.
+	ex - 'Example1' or 'Example2'
+	
+	Numeric -Numeric data type represent the data which has numeric value. Numeric value can be Integer, Float Number or even Complex Numbers. Ex - int-(1), float-(2.34), complex-(2+4j)
+	
+4. 	Expression is made up of values, variables, operators and call to functions. Expressions represent a value.
+
+
+5.	A Statement is an action or a command that does something whereas an Expression is a combination of values, operators and literals which yields something. Expression always evaluate to a value, statement don't. Expressions are part of Statement. Ex. (a+b) is an expression and (out= a+b) is a statement. Also assignment statements, conditional statements, loops, etc are statements.
+
+6.	After running this statement, bacon variable contains 22, because we are not assigning increment value to bacon variable.
+
+7.	Output will be same for both expression - 'spamspamspam'
+
+8.	eggs is valid variable while 100 is not a valid variable because according to python namespace, variable name can only start with a letter or underscore. Numbers are allowed in a variable but not at the beginning.
+
+9.	int(), float(), str()
+
+10.	In the following expression, 99 is not a string type. We can  fix the expression using str(99) instead of 99.
+
+
+   		
