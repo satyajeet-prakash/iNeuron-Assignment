@@ -12,7 +12,7 @@
 	
 	Numeric -Numeric data type represent the data which has numeric value. Numeric value can be Integer, Float Number and Complex Numbers. Ex - int-(1), float-(2.34), complex-(2+4j)
 	
-4. 	Expression is made up of values, variables, operators and call to functions. Expressions represent a value.
+4. 	Expression is made up of values, variables, operators and call to functions. Expressions represent a value, operators, etc.
 
 
 5.	A Statement is an action or a command that does something whereas an Expression is a combination of values, operators and literals which yields something. Expression always evaluate to a value, statement don't. Expressions are part of Statement. Ex. (a+b) is an expression and (out= a+b) is a statement. Also assignment statements, conditional statements, loops, etc are statements.
