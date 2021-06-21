@@ -1,5 +1,5 @@
 1.	Values - 'hello', -87.8, 6
-   	Expressions - *
+   	Expressions - *, -, /, +
    
 2. 	Variables stores any data in a memory loction whereas String is a data-type.
    	We can store String in a variable but not vice-versa.
@@ -10,7 +10,7 @@
 	String - A String is a collection of one or more characters put in a single quotes or double quotes. It is represent by str class.
 	ex - 'Example1' or 'Example2'
 	
-	Numeric -Numeric data type represent the data which has numeric value. Numeric value can be Integer, Float Number or even Complex Numbers. Ex - int-(1), float-(2.34), complex-(2+4j)
+	Numeric -Numeric data type represent the data which has numeric value. Numeric value can be Integer, Float Number and Complex Numbers. Ex - int-(1), float-(2.34), complex-(2+4j)
 	
 4. 	Expression is made up of values, variables, operators and call to functions. Expressions represent a value.
 
