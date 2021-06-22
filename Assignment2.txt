@@ -1,0 +1,80 @@
+1.	What are the two values of the Boolean data type? How do you write them?
+Ans-	Two values of boolean data type are True and False. Ex- flag = True or flag = False.
+	Booleans are helpful in checking conditions. In Numerical True = 1 and False = 0. Ex- 1>2 -> False, 3>=2 -> True.
+	
+2.	What are the three different types of Boolean operators?	
+Ans-	Three different types of boolean operators are and, or and not.
+	and - returns true if both conditions are true
+	or - returns true if either condition is true
+	not - returns true if condition is false and vice-versa
+	
+3.	Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+Ans-	TRUTH TABLE(AND)
+	A	B	(A and B)
+	True	False	False
+	False	False	False
+	False	True	False
+	True	True	True
+	
+	TRUTH TABLE(OR)
+	A	B	(A or B)
+	True	False	True
+	False	True	True
+	False	False	False 
+	True	True	True
+	
+	TRUTH TABLE(NOT)
+	A	!A
+	True	False
+	False	True
+	
+4.	What are the values of the following expressions?
+	(5 > 4) and (3 == 5)  			----->	False
+	not (5 > 4)				----->	False
+	(5 > 4) or (3 == 5)			----->	True
+	not ((5 > 4) or (3 == 5))		----->	False
+	(True and True) and (True == False)	----->	False
+	(not False) or (not True)		----->	True
+	
+5.	Six Comparision Operators are Equal to(==), Not Equal to(!=), Greater than(>), Less than(<), Greater than Equal to(>=), Less than Equal to(<=).
+
+6.	Assignment Operator(=) is used to assign the value to a variable, whereas Equal to Operator(==) is used for comparing two values. It returns 1 if both values are equal else returns 0.
+	In Assignment operator, value is placed on the right side whereas in Equal to operator, it is not important.
+	
+7.	spam = 0		--- 1
+	if spam == 10:		--- 1
+	    print(eggs)	--- 2
+	if spam > 5:		--- 2
+	    print(bacon)	--- 3
+	else:			--- 3
+	    print(ham)		--- 3
+	    print(spam)	--- 3
+	    print(spam)	--- 3
+	    
+
+8.	spam = int(input("Enter the value of spam: "))
+	if spam == 1:
+		print("Hello")
+	elif spam == 2:
+		print("Howdy")
+	else:
+		print("Greetings!")
+		
+9.	(Ctrl+C) or break Statement 
+
+10.	Break Statement is used to terminate the loop, which helps in escaping from the current block or loop whereas Continue statement is used to jump from the current iteration to next, it causes early execution of the next iteration.
+
+11.	Range(10), Range(0,10) and Range(0, 10, 1) have same value. The difference here is that in first, start and step is not mentioned and in second, step is not mentioned. Default Start value is 0 and default step value is 1.
+
+12.	-------Using for loop-----
+	for i int range(1, 10):
+		print(i)	
+
+	-------Using while loop---
+	i = 1
+	while i <= 10:
+		print(i)
+		i+=1	
+		
+13.	spam.bacon()
+
